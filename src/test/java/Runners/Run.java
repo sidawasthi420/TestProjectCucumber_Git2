@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
         features = "src/test/resources/",
         glue = {"StepDefinitions"},
         tags = "@regression",
-        publish = false
+        publish = false,
         plugin = {"pretty", "json:target/cucumber-report.json" }
 
 )
